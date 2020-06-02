@@ -17,12 +17,6 @@ import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import { setCurrentUser } from "./redux/user/user.actions";
 import { selectCurrentUser } from "./redux/user/user.selector";
 
-// const HatsPage = () => (
-//   <div>
-//     <h1>HATS PAGE</h1>
-//   </div>
-// );
-
 class App extends React.Component {
   unsubscribeFromAuth = null;
 
